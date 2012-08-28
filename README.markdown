@@ -4,10 +4,13 @@ This is my vim setup. Have fun with it.
 
 ## Plugins
 	* NERDtree
-	* FuzzyFinder
-	* snipMate
-	* supertab
+	* NERDcomment
 	* surround
-	* taglist
-	* l9
+	* tagbar
+	* tabular
+	* Fugitive
+	* Command-T
+	* Simple-pairs
+
+
 
