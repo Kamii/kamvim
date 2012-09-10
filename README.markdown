@@ -16,6 +16,7 @@ This is my vim setup. Have fun with it.
 Then move .vimrc to home/<user>
 
 To install Command-T you need to run this:
+
     cd ~/.vim/bundle/command-t/ruby
     ruby extconf.rb
     make
