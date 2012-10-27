@@ -30,6 +30,9 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+" ii exits insertmode
+inoremap ii <Esc>
+
 " Config for tagbar
 nmap <F5> :TagbarToggle<CR>
 let g:tagbar_width = 35
