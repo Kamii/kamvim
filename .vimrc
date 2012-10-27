@@ -23,12 +23,15 @@ colorschem wombat256
 " Disabling default keys to learn hjkl
 nnoremap <up> <nop>
 nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+nnoremap <left> :tabprevious<CR>
+nnoremap <right> :tabnext<CR>
 inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+" ii exits insertmode
+inoremap ii <Esc>
 
 " Config for tagbar
 nmap <F5> :TagbarToggle<CR>
